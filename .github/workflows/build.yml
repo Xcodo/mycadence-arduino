@@ -1,4 +1,4 @@
-name: Build & test all configs
+name: Build Heltec WiFi Kit 32
 
 on: [push, pull_request]
 
