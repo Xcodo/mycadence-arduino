@@ -31,5 +31,5 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: Heltec WiFi Kit 32
-          path: build\Heltec-esp32.esp32.wifi_kit_32/
+          path: build/Heltec-esp32.esp32.wifi_kit_32/
         
