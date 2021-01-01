@@ -26,4 +26,4 @@ jobs:
           arduino-cli lib install "ESP32 BLE Arduino"
       - name: Build
         run: |
-          arduino-cli compile --fqbn Heltec-esp32:esp32:wifi_kit_32 mycadence-arduino
+          arduino-cli compile --fqbn Heltec-esp32:esp32:wifi_kit_32 --export-binaries mycadence-arduino
