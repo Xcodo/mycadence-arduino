@@ -27,3 +27,9 @@ jobs:
       - name: Build
         run: |
           arduino-cli compile --fqbn Heltec-esp32:esp32:wifi_kit_32 --export-binaries mycadence-arduino
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: Heltec WiFi Kit 32
+          path: build\Heltec-esp32.esp32.wifi_kit_32/
+        
